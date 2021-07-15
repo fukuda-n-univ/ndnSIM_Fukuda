@@ -1,0 +1,161 @@
+
+router
+
+#node	city	y	x	mpi-partition	
+leaf-1	NA	130.31806	33.50639	1	
+leaf-2	NA	131.5125	33.13806	2	
+leaf-3	NA	130.9	32.9	3	
+leaf-4	NA	132.35937	34.29627	4	
+leaf-5	NA	132.66574	33.73916	5	
+leaf-6	NA	131.37139	34.08583	6	
+leaf-7	NA	132.66574	33.73916	7	
+leaf-8	NA	133.94333	34.24028	8	
+leaf-9	NA	140.02333	35.50472	9	
+leaf-10	NA	133.46667	35.06667	10	
+leaf-11	NA	136.52556	36.49444	11	
+leaf-12	NA	135.67841	34.70559	12	
+leaf-13	NA	136.80641	35.08147	13	
+leaf-14	NA	138.28306	34.87694	14	
+leaf-15	NA	137.11139	36.59528	15	
+leaf-16	NA	138.46833	35.56389	16	
+leaf-17	NA	134.45944	33.96583	17	
+leaf-18	NA	139.32416	35.52522	18	
+leaf-19	NA	138.92361	37.80222	19	
+leaf-20	NA	136.12257	35.96443	20	
+leaf-21	NA	140	36.1	21	
+leaf-22	NA	138.96083	36.29111	22	
+leaf-23	NA	139.4813	35.51488	23	
+leaf-24	NA	135.65385	34.92107	24	
+leaf-25	NA	139.45	38.2	25	
+leaf-26	NA	136.4065	34.17339	26	
+leaf-27	NA	135.40218	34.59374	27	
+leaf-28	NA	135.083	34.5913	28	
+leaf-29	NA	134.13333	35.4	29	
+leaf-30	NA	133.835	34.56167	30	
+leaf-31	NA	139.55657	35.80807	31	
+leaf-32	NA	129.77361	32.64472	32	
+leaf-33	NA	141.24694	42.96417	33	
+leaf-34	NA	140.3725	40.49306	34	
+leaf-35	NA	140.77194	38.16889	35	
+leaf-36	NA	131.26667	32.66667	36	
+leaf-37	NA	130.45814	31.46018	37	
+rtr-1	NA	130.41806	33.60639	1	
+rtr-2	NA	131.6125	33.23806	2	
+rtr-3	NA	131	33	3	
+rtr-4	NA	132.45937	34.39627	4	
+rtr-5	NA	132.76574	33.83916	5	
+rtr-6	NA	131.47139	34.18583	6	
+rtr-7	NA	132.76574	33.83916	7	
+rtr-8	NA	134.04333	34.34028	8	
+rtr-9	NA	140.12333	35.60472	9	
+rtr-10	NA	133.56667	35.16667	10	
+rtr-11	NA	136.62556	36.59444	11	
+rtr-12	NA	135.77841	34.80559	12	
+rtr-13	NA	136.90641	35.18147	13	
+rtr-14	NA	138.38306	34.97694	14	
+rtr-15	NA	137.21139	36.69528	15	
+rtr-16	NA	138.56833	35.66389	16	
+rtr-17	NA	134.55944	34.06583	17	
+rtr-18	NA	139.42416	35.62522	18	
+rtr-19	NA	139.02361	37.90222	19	
+rtr-20	NA	136.22257	36.06443	20	
+rtr-21	NA	140.1	36.2	21	
+rtr-22	NA	139.06083	36.39111	22	
+rtr-23	NA	139.5813	35.61488	23	
+rtr-24	NA	135.75385	35.02107	24	
+rtr-25	NA	139.55	38.3	25	
+rtr-26	NA	136.5065	34.27339	26	
+rtr-27	NA	135.50218	34.69374	27	
+rtr-28	NA	135.183	34.6913	28	
+rtr-29	NA	134.23333	35.5	29	
+rtr-30	NA	133.935	34.66167	30	
+rtr-31	NA	139.65657	35.90807	31	
+rtr-32	NA	129.87361	32.74472	32	
+rtr-33	NA	141.34694	43.06417	33	
+rtr-34	NA	140.4725	40.59306	34	
+rtr-35	NA	140.87194	38.26889	35	
+rtr-36	NA	131.36667	32.76667	36	
+rtr-37	NA	130.55814	31.56018	37	
+root	NA	139.69167	35.68944	1	
+					
+					
+link					
+					
+#from	to	capacity	metric	delay	queue
+rtr-0	rtr-32	10Mbps	1	1ms	50
+rtr-0	rtr-2	10Mbps	1	1ms	50
+rtr-0	rtr-3	10Mbps	1	1ms	50
+rtr-0	rtr-6	10Mbps	1	1ms	50
+rtr-0	rtr-37	10Mbps	1	1ms	50
+rtr-0	rtr-7	10Mbps	1	1ms	50
+rtr-4	rtr-6	10Mbps	1	1ms	50
+rtr-4	rtr-24	10Mbps	1	1ms	50
+rtr-4	rtr-29	10Mbps	1	1ms	50
+rtr-4	rtr-30	10Mbps	1	1ms	50
+rtr-5	rtr-7	10Mbps	1	1ms	50
+rtr-7	rtr-17	10Mbps	1	1ms	50
+rtr-7	rtr-8	10Mbps	1	1ms	50
+rtr-7	rtr-27	10Mbps	1	1ms	50
+rtr-9	rtr-23	10Mbps	1	1ms	50
+rtr-10	rtr-23	10Mbps	1	1ms	50
+rtr-12	rtr-24	10Mbps	1	1ms	50
+rtr-13	rtr-23	10Mbps	1	1ms	50
+rtr-13	rtr-14	10Mbps	1	1ms	50
+rtr-13	rtr-27	10Mbps	1	1ms	50
+rtr-11	rtr-33	10Mbps	1	1ms	50
+rtr-11	rtr-23	10Mbps	1	1ms	50
+rtr-11	rtr-19	10Mbps	1	1ms	50
+rtr-11	rtr-20	10Mbps	1	1ms	50
+rtr-11	rtr-24	10Mbps	1	1ms	50
+rtr-11	rtr-15	10Mbps	1	1ms	50
+rtr-16	rtr-23	10Mbps	1	1ms	50
+rtr-23	rtr-18	10Mbps	1	1ms	50
+rtr-23	rtr-21	10Mbps	1	1ms	50
+rtr-23	rtr-25	10Mbps	1	1ms	50
+rtr-23	rtr-22	10Mbps	1	1ms	50
+rtr-23	rtr-31	10Mbps	1	1ms	50
+rtr-21	rtr-35	10Mbps	1	1ms	50
+rtr-24	rtr-27	10Mbps	1	1ms	50
+rtr-26	rtr-27	10Mbps	1	1ms	50
+rtr-28	rtr-27	10Mbps	1	1ms	50
+rtr-33	rtr-35	10Mbps	1	1ms	50
+rtr-34	rtr-35	10Mbps	1	1ms	50
+rtr-35	rtr-36	10Mbps	1	1ms	50
+leaf-1	rtr-1	10Mbps	1	1ms	50
+leaf-2	rtr-2	10Mbps	1	1ms	50
+leaf-3	rtr-3	10Mbps	1	1ms	50
+leaf-4	rtr-4	10Mbps	1	1ms	50
+leaf-5	rtr-5	10Mbps	1	1ms	50
+leaf-6	rtr-6	10Mbps	1	1ms	50
+leaf-7	rtr-7	10Mbps	1	1ms	50
+leaf-8	rtr-8	10Mbps	1	1ms	50
+leaf-9	rtr-9	10Mbps	1	1ms	50
+leaf-10	rtr-10	10Mbps	1	1ms	50
+leaf-11	rtr-11	10Mbps	1	1ms	50
+leaf-12	rtr-12	10Mbps	1	1ms	50
+leaf-13	rtr-13	10Mbps	1	1ms	50
+leaf-14	rtr-14	10Mbps	1	1ms	50
+leaf-15	rtr-15	10Mbps	1	1ms	50
+leaf-16	rtr-16	10Mbps	1	1ms	50
+leaf-17	rtr-17	10Mbps	1	1ms	50
+leaf-18	rtr-18	10Mbps	1	1ms	50
+leaf-19	rtr-19	10Mbps	1	1ms	50
+leaf-20	rtr-20	10Mbps	1	1ms	50
+leaf-21	rtr-21	10Mbps	1	1ms	50
+leaf-22	rtr-22	10Mbps	1	1ms	50
+leaf-23	rtr-23	10Mbps	1	1ms	50
+leaf-24	rtr-24	10Mbps	1	1ms	50
+leaf-25	rtr-25	10Mbps	1	1ms	50
+leaf-26	rtr-26	10Mbps	1	1ms	50
+leaf-27	rtr-27	10Mbps	1	1ms	50
+leaf-28	rtr-28	10Mbps	1	1ms	50
+leaf-29	rtr-29	10Mbps	1	1ms	50
+leaf-30	rtr-30	10Mbps	1	1ms	50
+leaf-31	rtr-31	10Mbps	1	1ms	50
+leaf-32	rtr-32	10Mbps	1	1ms	50
+leaf-33	rtr-33	10Mbps	1	1ms	50
+leaf-34	rtr-34	10Mbps	1	1ms	50
+leaf-35	rtr-35	10Mbps	1	1ms	50
+leaf-36	rtr-36	10Mbps	1	1ms	50
+leaf-37	rtr-37	10Mbps	1	1ms	50
+rtr-23	root-1	10Mbps	1	1ms	50
